@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+</head>
+
+<body>
+  <header class="header">
+    <div id="container">
+      <nav class="header-menu">
+        <ul class="header-list">
+          <a href="/"><img src="/main/logo.svg" alt="Whitesquare logo" width=80px;></a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <h2>Вход в аккаунт</h2>
+  <form name="Log in form" class="autoriz-form" action="#" method="post" style="text-align: center">
+    <!--     Тут регулярка для имейла (сам писал), 320 максимальная длина, потому что это максимальная длина емайла-->
+    <!-- required pattern="\w+((\.\w+)+)?@(\w+\.)+\w+[ \.,;\n]?" - Зачем я это писал?? -->
+    <input class="input js-input-email" placeholder="Логин" autocomplete="current-password" maxlength="320">
+    <br>
+    <br>
+    <input class="input js-input-password" placeholder="Пароль">
+    <br>
+    <br>
+    <button type="not-main">Регистрация</button>
+    <button type="submit">Войти</button>
+  </form>
+</body>
+<script src="../script.js"> </script>
+
+</html>

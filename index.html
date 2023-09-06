@@ -1,0 +1,70 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Главная страница</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div id="container">
+      <nav class="header-menu">
+        <ul class="header-list">
+        <a href="/"><img src="/main/logo.svg" alt="Whitesquare logo" width=80px;></a>
+        <a class="nav-button" href="/log in/login.html">LOG IN</a>
+        <a class="nav-button" href="/feedback/feedback.html"> Feedback </a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <content>
+      <h1 class="heading">
+        Найди свой любимый бренд!
+      </h1>
+      <form name="Ориокс" action="#" method="get" style="text-align: center">
+        <input type="text" name="q" placeholder="Search">
+        <button type="submit">GO</button>
+      </form>
+    </content>
+<!--     <sidebar>
+      <ul class="sidebar-list">
+        <li class="sidebar-link">Пункт меню</li>
+        <li class="sidebar-link">Пункт меню</li>
+        <li class="sidebar-link">Пункт меню</li>
+        <li class="sidebar-link">Пункт меню</li>
+      </ul>
+    </sidebar> -->
+    <ul class="promote-zone">
+        <li class="promote-link"> 
+        <a href="/post/post.html"> 
+          <img class="promote-img" src="/mediafiles/images/nike-air-max-97-yellow-tie-dye-FN0321-100-4.webp" alt="">
+        </a>
+        </li>
+        <li class="promote-link"> <img class="promote-img" src="/mediafiles/images/nike-dunk-high-50-years-of-hip-hop-DV7216-001.webp" alt=""> </li>
+    </ul>
+    <footer>
+      <div class="footer">
+        <div class="footer-content-right">
+          <a href="https://github.com/"><img class="icon" src="mediafiles/images/github.webp" class="icon-style" alt="Github icon"></a>
+          <a href="https://vk.com/"><img class="icon" src="mediafiles/images/vk.png" class="icon-style" alt="VK icon"></a>
+          <a href="https://mail.google.com/"><img class="icon" src="mediafiles/images/gmail.png" class="icon-style" alt="Gmai icon"></a>
+        </div>
+      </div>
+    </footer>
+    <script src="/main/script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
